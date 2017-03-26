@@ -31,10 +31,10 @@ class Note:
         if self.octaves == 3:
             for i in range(0, len(self.scale)-1):
                 pitches += [int(self.scale[i])-12]
-        if self.octaves == 2:
+        if self.octaves >= 2:
             for i in range(0, len(self.scale) - 1):
                 pitches += [int(self.scale[i])+12]
-        if self.octaves == 1:
+        if self.octaves >= 1:
             for i in range(0, len(self.scale) - 1):
                 pitches += [int(self.scale[i])]
 
