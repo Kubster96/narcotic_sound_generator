@@ -1,3 +1,3 @@
-# Narcotic Sound Generator
+# NarcoticSoundGenerator
 
-Program for generating music according to given arguments
+Program for generating music according to given parameters
